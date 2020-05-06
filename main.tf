@@ -130,7 +130,7 @@ module "diags_storage_account" {
   }
 }
 
-module "windowsvm" {
+module "windowsvm" 
   source                              = "github.com/dipesharora/terraform-azure-windows-vm"
   location                            = var.location
   resource_group_name                 = azurerm_resource_group.vm.name
